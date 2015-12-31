@@ -1,0 +1,22 @@
+a{
+	color: red;
+	text-decoration:none;
+	font-size: 18px;
+}
+h1{
+	font-family: helvetica,sans-serif;
+}
+/* Definindo "id" --Somente usar 1 id por página--*/
+#Segundo{
+	color: green;
+}
+/* Definindo "classe" - É válido para todas as classes "link" que tiverem na página-
+.link{
+	color: blue;
+}*/
+
+/* - Neste caso somente as tags "a" que possuem o classe link serão afetadas- 
+	Pode-se também uma estrutura ex: " body p a.link{...}" */
+a.link{
+	color: blue;
+}

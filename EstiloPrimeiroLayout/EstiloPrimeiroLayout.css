@@ -1,0 +1,59 @@
+body{
+	font-family: Helvetica, sans-serif; 
+}
+a:link{
+	color: #ff6600;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#wrap{
+	width: 960px;
+	margin: auto;
+	background: #e3e3e3;
+	padding: 10px 20px;/* topo, direita, baixo, esquerda o padding é acrescido no tamanho total*/
+	/*overflow: hidden;oculta o que ultrapassar os limites do wrap*/
+}
+header nav ul{
+	list-style: none;/* tira o circulo da lista*/
+	padding-left: 0;
+}
+header nav ul li{
+	display: inline-block; /* alinha horizontalmente o menu*/
+	margin-right: 10px;/*define o espaçamento a direita dos itens de menu*/
+}
+header nav ul li a{
+	font-size: 18px;
+	/*color: #ff6600;
+	text-decoration: none;*/
+}
+/*Insere o underline quando o mouse fica sobre o item de menu*/
+/*header nav ul li a:hover{
+	text-decoration: underline;
+}*/
+#content{
+	float: left;/*deixa o conteudo flutuando para reorganizá-lo na página*/
+	width: 660px;
+	/*background: red;*/
+}
+#sidebar{
+	float: right;
+	width: 300px;
+	/*background: blue;*/
+}
+#sidebar ul{
+	list-style: none;
+}
+/* é melhor declarar de forma global no inicio do CSS
+#sidebar ul li a{
+	color: #ff6600;
+	text-decoration: none;
+}
+#sidebar ul li a:hover{
+	text-decoration: underline;
+}
+*/
+footer{
+	clear: both;/*limpa as flutuações anteriores*/
+}
